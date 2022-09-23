@@ -1,0 +1,94 @@
+.layout {
+  display: flex;
+  gap: 25px;
+}
+
+.layout .Files {
+  width: calc(100% - 270px);
+}
+
+@media(max-width:1121px) {
+  .layout {
+    flex-direction: column-reverse;
+  }
+
+  .layout .Files {
+    width: 100%;
+  }
+}
+
+.layout .Files .box {
+  position: relative;
+  height: fit-content;
+  padding: 10px 10px 0;
+}
+
+.layout .Files .box .icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 20px;
+  transition: var(--main-transition);
+  cursor: pointer;
+}
+
+.layout .Files .box .icon:hover {
+  color: gray;
+}
+
+.layout .Files .box .name img {
+  width: 70px;
+  margin: 20px 0;
+}
+
+.layout .Files .box .uesr {
+  margin: 15px 0 10px;
+}
+
+.layout .Files .box .date {
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+}
+
+
+/* Files Statistics */
+.box-fixed {
+  width: 270px;
+  height: fit-content;
+}
+
+@media(max-width:1121px) {
+  .box-fixed {
+    width: 100%;
+  }
+}
+
+.box-fixed h2 {
+  margin-bottom: 10px;
+}
+
+.box-fixed .icon-and-size {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.box-fixed .icon-and-size:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.box-fixed .icon-and-size .icon {
+  gap: 10px;
+}
+
+.box-fixed .icon-and-size .icon img {
+  width: 40px;
+  border-radius: 6px;
+}
+
+.box-fixed .buttom {
+  margin: 0 auto;
+  gap: 10px;
+}

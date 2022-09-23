@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="official dashboard">
+  <title>Dashboard</title>
+  <!-- ========== Main Icon ========== -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1828/1828533.png">
+  <!-- ========== Font Awesome File ========== -->
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <!-- ========== My Framework ========== -->
+  <link rel="stylesheet" href="CSS/framework.css">
+  <!-- ========== Basic Rules ========== -->
+  <link rel="stylesheet" href="CSS/Basics.css">
+  <!-- ========== Main Style File ========== -->
+  <link rel="stylesheet" href="CSS/main.css">
+  <!-- ========== Google Fonts ========== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,
+              200;0,400;0,600;0,800;0,900;1,100;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <aside>
+    <div class="logo"></div>
+    <div class="links-and-lang">
+      <ul class="links">
+        <li>
+          <a href="index.html" class="active">
+            <i class="fas fa-chart-line icon"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="settings.html">
+            <i class="fas fa-cog icon"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html">
+            <i class="fas fa-user icon"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="project.html">
+            <i class="fas fa-project-diagram icon"></i>
+            <span>Project</span>
+          </a>
+        </li>
+        <li>
+          <a href="academy.html">
+            <i class="fas fa-user-graduate icon"></i>
+            <span>Courses</span>
+          </a>
+        </li>
+        <li>
+          <a href="friends.html">
+            <i class="fas fa-user-friends icon"></i>
+            <span>Friends</span>
+          </a>
+        </li>
+        <li>
+          <a href="files.html">
+            <i class="fas fa-folder icon"></i>
+            <span>Files</span>
+          </a>
+        </li>
+        <li>
+          <a href="plans.html">
+            <i class="fas fa-pager icon"></i>
+            <span>Plans</span>
+          </a>
+        </li>
+      </ul>
+      <div class="lang">
+        <a href="index.rtl.html" class="btn c-white bg-main-color">AR</a>
+        <a href="index.html" class="btn c-white bg-main-color">EN</a>
+      </div>
+    </div>
+  </aside>
+  <header>
+    <form action="">
+      <i class="fas fa-search"></i>
+      <input type="search" placeholder="Search Keyword">
+    </form>
+    <div class="profile-and-notification">
+      <div class="notification">
+        <i class="far fa-bell icon">
+          <ul class="news-bar">
+            <div class="title">
+              <h2>notifications</h2>
+              <i class="fas fa-ellipsis-v icon">
+                <ul class="options">
+                  <li>Mark it as read</li>
+                  <li>Remove all notice</li>
+                </ul>
+              </i>
+            </div>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-01.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Mohamed Sabry expressed his admiration for Professor Osama Mohamed</h4>
+                <span>12:30 PM</span>
+              </div>
+            </li>
+            <li class="news active">
+              <div class="img">
+                <img src="imags/avatar-02.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Osama Elzero shared your post</h4>
+                <span>09:28 PM</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-03.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Osama Mohamed reaction to your post</h4>
+                <span>04:36 AM</span>
+              </div>
+            </li>
+            <li class="news active">
+              <div class="img">
+                <img src="imags/avatar-04.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Elzero Add New Vadio</h4>
+                <span>07:46 PM</span>
+              </div>
+            </li>
+            <li class="news active">
+              <div class="img">
+                <img src="imags/avatar-05.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Mohamed Sabry deleted your comment</h4>
+                <span>02:59 AM</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-01.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Karam Mahmoud comment has been removed because it violates the laws</h4>
+                <span>12:30 PM</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-02.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Please update your post</h4>
+                <span>09:28 PM</span>
+              </div>
+            </li>
+            <li class="news active">
+              <div class="img">
+                <img src="imags/avatar-03.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Abu Trika requested permission to publish his article</h4>
+                <span>04:36 AM</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-04.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Please take a look at customer designs</h4>
+                <span>07:46 PM</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-05.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Your site's performance is smoother than before</h4>
+                <span>02:59 AM</span>
+              </div>
+            </li>
+          </ul>
+        </i>
+      </div>
+      <a href="profile.html" class="profile">
+        <img src="imags/avatar-06.png" alt="">
+      </a>
+    </div>
+  </header>
+  <main class="content">
+    <h1 class="main-title">Dashboard</h1>
+    <div class="statistics main-grid">
+      <!-- Start Profile Section -->
+      <section class="profile box-bg-white">
+        <div class="title">
+          <h1>Welcome</h1>
+          <p>Sabry</p>
+        </div>
+        <div class="cover">
+          <img src="imags/cover.png" alt="">
+        </div>
+        <div class="profile-pic">
+          <img src="imags/avatar-06.png" alt="">
+        </div>
+        <div class="numbers">
+          <div class="name">
+            <span class="one">Mohamed Sabry</span>
+            <span class="two">Developer</span>
+          </div>
+          <div class="project">
+            <span class="one">548</span>
+            <span class="two">Projects</span>
+          </div>
+          <div class="earned">
+            <span class="one">750,000$</span>
+            <span class="two">Earned</span>
+          </div>
+        </div>
+        <div class="buttom">
+          <a href="profile.html" class="btn c-white bg-main-color">Profile</a>
+        </div>
+      </section>
+      <!-- End Profile Section -->
+      <!-- Start Draft Section -->
+      <section class="draft box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit">Quick Draft</h1>
+          <p class="p-siz">Write A Draft For Your Idea</p>
+        </div>
+        <div class="inputs">
+          <input type="text" placeholder="Title">
+          <textarea style="resize: none;" placeholder="Your Thought"></textarea>
+          <input type="file" id="file">
+          <label for="file" id="file" class="flex">
+            <i class="fas fa-file-archive icon"></i>
+            Upload File
+          </label>
+        </div>
+        <div class="btn-end">
+          <a href="#" class="btn c-white bg-main-color">Save</a>
+        </div>
+      </section>
+      <!-- End Draft Section  -->
+      <!-- Start Target Section -->
+      <section class="target box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit">Yearly Target</h1>
+          <p class="p-siz">Target Of The Year With Progress</p>
+        </div>
+        <div class="money flex">
+          <div class="icon flex">
+            <img src="imags/dollars.png" alt="">
+          </div>
+          <div class="info">
+            <span class="title span-block">Money</span>
+            <span class="number span-block">20.000$</span>
+            <div class="line">
+              <span style="width: 60%;">
+                <div>60%</div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="projects flex">
+          <div class="icon flex">
+            <img src="imags/coding.png" alt="">
+          </div>
+          <div class="info">
+            <span class="title span-block">Projects</span>
+            <span class="number span-block">54</span>
+            <div class="line">
+              <span style="width: 93%;">
+                <div>93%</div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="team flex">
+          <div class="icon flex">
+            <img src="imags/man.png" alt="">
+          </div>
+          <div class="info">
+            <span class="title span-block">Team</span>
+            <span class="number span-block">22</span>
+            <div class="line">
+              <span style="width: 80%;">
+                <div>80%</div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Target Section -->
+      <!-- Start Tickets Section -->
+      <section class="tickets box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit">Tickets Statistics</h1>
+          <p class="p-siz">Everything About Support Tickets</p>
+        </div>
+        <div class="group">
+          <div class="box one">
+            <i class="far fa-list-alt icon"></i>
+            <span class="span-block number">2500</span>
+            <span class="span-block name">Total</span>
+          </div>
+          <div class="box two">
+            <i class="fas fa-spinner icon"></i>
+            <span class="span-block number">500</span>
+            <span class="span-block name">Pending</span>
+          </div>
+          <div class="box three">
+            <i class="far fa-check-circle icon"></i>
+            <span class="span-block number">1900</span>
+            <span class="span-block name">Closed</span>
+          </div>
+          <div class="box four">
+            <i class="far fa-times-circle icon"></i>
+            <span class="span-block number">100</span>
+            <span class="span-block name">Deleted</span>
+          </div>
+        </div>
+      </section>
+      <!-- End Tickets Section -->
+      <!-- Start News Section -->
+      <section class="news box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">Latest News</h1>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="post flex">
+            <img src="imags/news_2.png" alt="">
+            <div class="info">
+              <h4>Created SASS Section</h4>
+              <p>New SASS New Website Design</p>
+            </div>
+          </div>
+          <div class="time btn">3 Days Ago</div>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="post flex">
+            <img src="imags/news_3.png" alt="">
+            <div class="info">
+              <h4>Changed The Design</h4>
+              <p>A Brand New Website Design</p>
+            </div>
+          </div>
+          <div class="time btn">145 Days Ago</div>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="post flex">
+            <img src="imags/news_1.png" alt="">
+            <div class="info">
+              <h4>Team Increased</h4>
+              <p>3 Developers Joined The Team</p>
+            </div>
+          </div>
+          <div class="time btn">8 Days Ago</div>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="post flex">
+            <img src="imags/news_4.png" alt="">
+            <div class="info">
+              <h4>Added Payment Gateway</h4>
+              <p>Many New Payment Gateways Added</p>
+            </div>
+          </div>
+          <div class="time btn">28 Days Ago</div>
+        </div>
+      </section>
+      <!-- End News Section -->
+      <!-- Start Tasks Section -->
+      <section class="tasks box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit">Latest Tasks</h1>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="task">
+            <h4>Record One New Video</h4>
+            <p>Record Python Create Exe Project</p>
+          </div>
+          <i class="fas fa-trash-alt"></i>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="task">
+            <h4>Write Article</h4>
+            <p>Write Low Level vs High Level Languages</p>
+          </div>
+          <i class="fas fa-trash-alt"></i>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="task">
+            <h4>Finish Project</h4>
+            <p>Publish Academy Programming Project</p>
+          </div>
+          <i class="fas fa-trash-alt"></i>
+        </div>
+        <div class="group flex flex-jus-bet low-opacity">
+          <div class="task del">
+            <h4>Attend The Meeting</h4>
+            <p>Attend The Project Business Analysis Meeting</p>
+          </div>
+          <i class="fas fa-trash-alt"></i>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="task">
+            <h4>Finish Lesson</h4>
+            <p>Finish Teaching Flex Box</p>
+          </div>
+          <i class="fas fa-trash-alt"></i>
+        </div>
+      </section>
+      <!-- End Tasks Section -->
+      <!-- Start Search Items Section -->
+      <section class="search-items box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">Top Search Items</h1>
+        </div>
+        <div class="keyword flex flex-jus-bet">
+          <span class="span-block">Keyword</span>
+          <span class="span-block">Search Count</span>
+        </div>
+        <ul class="list">
+          <li class="flex flex-jus-bet">
+            <span class="span-block">Programming</span>
+            <span class="span-block btn bg-gray-color">728</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">JavaScript</span>
+            <span class="span-block btn bg-gray-color">280</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">PHP</span>
+            <span class="span-block btn bg-gray-color">263</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">Code</span>
+            <span class="span-block btn bg-gray-color">157</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">Design</span>
+            <span class="span-block btn bg-gray-color">126</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">Logic</span>
+            <span class="span-block btn bg-gray-color">57</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">CSS</span>
+            <span class="span-block btn bg-gray-color">43</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">HTML</span>
+            <span class="span-block btn bg-gray-color">27</span>
+          </li>
+        </ul>
+      </section>
+      <!-- End Search Items Section -->
+      <!-- Start Upload Files Section -->
+      <section class="upload-files box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">Lasted Upload Files</h1>
+        </div>
+        <ul class="group">
+          <li class="flex flex-jus-bet">
+            <div class="name flex">
+              <img src="/imags/pdf.png" alt="">
+              <div class="info">
+                <h4>My-pdf-file.pdf</h4>
+                <p>Sabry</p>
+              </div>
+            </div>
+            <div class="size">
+              <span class="span-block btn bg-gray-color">2.9MB</span>
+            </div>
+          </li>
+          <li class="flex flex-jus-bet">
+            <div class="name flex">
+              <img src="/imags/dll.png" alt="">
+              <div class="info">
+                <h4>My-dll-file.dll</h4>
+                <p>Ali</p>
+              </div>
+            </div>
+            <div class="size">
+              <span class="span-block btn bg-gray-color">17.2MB</span>
+            </div>
+          </li>
+          <li class="flex flex-jus-bet">
+            <div class="name flex">
+              <img src="/imags/eps.png" alt="">
+              <div class="info">
+                <h4>My-eps-file.eps</h4>
+                <p>Sabry</p>
+              </div>
+            </div>
+            <div class="size">
+              <span class="span-block btn bg-gray-color">8.1MB</span>
+            </div>
+          </li>
+          <li class="flex flex-jus-bet">
+            <div class="name flex">
+              <img src="/imags/zip.png" alt="">
+              <div class="info">
+                <h4>My-zip-file.zip</h4>
+                <p>Admin</p>
+              </div>
+            </div>
+            <div class="size">
+              <span class="span-block btn bg-gray-color">7.2MB</span>
+            </div>
+          </li>
+          <li class="flex flex-jus-bet">
+            <div class="name flex">
+              <img src="/imags/avi.png" alt="">
+              <div class="info">
+                <h4>My-avi-file.avi</h4>
+                <p>Uesr</p>
+              </div>
+            </div>
+            <div class="size">
+              <span class="span-block btn bg-gray-color">5.8MB</span>
+            </div>
+          </li>
+          <li class="flex flex-jus-bet">
+            <div class="name flex">
+              <img src="/imags/psd.png" alt="">
+              <div class="info">
+                <h4>My-psd-file.psd</h4>
+                <p>Admin</p>
+              </div>
+            </div>
+            <div class="size">
+              <span class="span-block btn bg-gray-color">14.3MB</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- End Upload Files Section -->
+      <!-- Start Curent Project Section -->
+      <section class="project-progress box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">Curent Project Progress</h1>
+        </div>
+        <ul class="list">
+          <li>
+            <i class="fas fa-circle icon-color"></i>
+            <h3>Got The Project</h3>
+          </li>
+          <li>
+            <i class="fas fa-circle icon-color"></i>
+            <h3>Started The Project</h3>
+          </li>
+          <li>
+            <i class="fas fa-circle icon-color"></i>
+            <h3>The Project About To Finish</h3>
+          </li>
+          <li>
+            <i class="fas fa-circle icon-white loading"></i>
+            <h3>Test The Project</h3>
+          </li>
+          <li>
+            <i class="fas fa-circle icon-white"></i>
+            <h3>Finish The Project & Get Money</h3>
+          </li>
+        </ul>
+      </section>
+      <!-- End Curent Project Section -->
+      <!-- Start Reminders Section -->
+      <section class="reminders box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">Reminders</h1>
+        </div>
+        <ul class="list">
+          <li class="flex">
+            <i class="fas fa-circle icon"></i>
+            <div class="info">
+              <h4>Check My Tasks List</h4>
+              <p>28/09/2022 - 07:30AM</p>
+            </div>
+          </li>
+          <li class="flex">
+            <i class="fas fa-circle icon"></i>
+            <div class="info">
+              <h4>Check My Project</h4>
+              <p>26/10/2022 - 12:00AM</p>
+            </div>
+          </li>
+          <li class="flex">
+            <i class="fas fa-circle icon"></i>
+            <div class="info">
+              <h4>Call All My Client</h4>
+              <p>22/07/2022 - 07:00PM</p>
+            </div>
+          </li>
+          <li class="flex">
+            <i class="fas fa-circle icon"></i>
+            <div class="info">
+              <h4>Finish The Development Workshop</h4>
+              <p>20/12/2022 - 09:45PM</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- End Reminders Section -->
+      <!-- Start Lasted Post Section -->
+      <section class="lasted-post box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">Lasted Post</h1>
+        </div>
+        <div class="group flex-jus-bet">
+          <div class="profile flex gap-10">
+            <img src="/imags/avatar-06.png" alt="">
+            <div class="info">
+              <h4>Mohamed Sabry</h4>
+              <span class="span-block">About 3 Hours Ago</span>
+            </div>
+          </div>
+          <p class="post">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus hic animi natus, autem quisquam
+            cupiditate molestiae quas fuga eligendi expedita nam est! Quasi placeat molestiae doloremque maxime
+            recusandae quibusdam ut.
+          </p>
+          <div class="likes-and-comments flex flex-jus-bet">
+            <div class="liks">
+              <span><i class="far fa-heart icon"></i></span>
+              <span>3.2K</span>
+            </div>
+            <div class="comments">
+              <span><i class="far fa-comments icon"></i></span>
+              <span>286</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Lasted Post Section -->
+      <!-- Start Social Media Section -->
+      <section class="social-media box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">Social Media Stats</h1>
+        </div>
+        <div class="group">
+          <div class="link twitter flex">
+            <i class="fab fa-twitter-square icon bg-twitter-color"></i>
+            <div class="number flex-jus-bet flex">
+              <span>90K Followers</span>
+              <span class="span-block btn bg-twitter-color">Follow</span>
+            </div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="link facebook flex">
+            <i class="fab fa-facebook-square icon bg-facebook-color"></i>
+            <div class="number flex-jus-bet flex">
+              <span>2M Like</span>
+              <span class="span-block btn bg-facebook-color">Like</span>
+            </div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="link youtube flex">
+            <i class="fab fa-youtube-square icon bg-youtube-color"></i>
+            <div class="number flex-jus-bet flex">
+              <span>1M Subs</span>
+              <span class="span-block btn bg-youtube-color">Sub</span>
+            </div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="link linkedin flex">
+            <i class="fab fa-linkedin icon bg-linkedin-color"></i>
+            <div class="number flex-jus-bet flex">
+              <span>70K Followers</span>
+              <span class="span-block btn bg-linkedin-color">Follow</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Social Media Section -->
+    </div>
+    <!-- Start Table Section -->
+    <div class="table box-bg-white box-pad">
+      <div class="title">
+        <h1 class="tit tit-mrg-botm">Projects</h1>
+      </div>
+      <div class="content">
+        <table>
+          <thead>
+            <tr>
+              <td>Name</td>
+              <td>Finish Date</td>
+              <td>Client</td>
+              <td>Price</td>
+              <td>Team</td>
+              <td>Status</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ministry Wikipedia</td>
+              <td>10 May 2022</td>
+              <td>Ministry</td>
+              <td>3500$</td>
+              <td>
+                <div class="img flex">
+                  <img title="Open Profile" src="imags/avatar-01.png" class="circle-img z-1" alt="">
+                  <img title="Open Profile" src="imags/avatar-02.png" class="circle-img z-2 img-marg" alt="">
+                  <img title="Open Profile" src="imags/avatar-03.png" class="circle-img z-3 img-marg" alt="">
+                  <img title="Open Profile" src="imags/avatar-04.png" class="circle-img z-4 img-marg" alt="">
+                </div>
+              </td>
+              <td><span class="btn c-white bg-orange-color">Pending</span></td>
+            </tr>
+            <tr>
+              <td>Sabry Shop</td>
+              <td>22 July 2022</td>
+              <td>Sabry Company</td>
+              <td>2300$</td>
+              <td>
+                <div class="img flex">
+                  <img title="Open Profile" src="imags/avatar-02.png" class="circle-img z-1" alt="">
+                  <img title="Open Profile" src="imags/avatar-03.png" class="circle-img z-4 img-marg" alt="">
+                </div>
+              </td>
+              <td><span class="btn c-white bg-facebook-color">In Progress</span></td>
+            </tr>
+            <tr>
+              <td>Uber App</td>
+              <td>09 Sep 2022</td>
+              <td>Uber Company</td>
+              <td>8600$</td>
+              <td>
+                <div class="img flex">
+                  <img title="Open Profile" src="imags/avatar-05.png" class="circle-img z-1" alt="">
+                  <img title="Open Profile" src="imags/avatar-02.png" class="circle-img z-2 img-marg" alt="">
+                  <img title="Open Profile" src="imags/avatar-04.png" class="circle-img z-4 img-marg" alt="">
+                </div>
+              </td>
+              <td><span class="btn c-white bg-green-color">Completed</span></td>
+            </tr>
+            <tr>
+              <td>Mohamed Website</td>
+              <td>27 May 2022</td>
+              <td>Mohamed Company</td>
+              <td>1200$</td>
+              <td>
+                <div class="img flex">
+                  <img title="Open Profile" src="imags/avatar-04.png" class="circle-img z-1" alt="">
+                  <img title="Open Profile" src="imags/avatar-03.png" class="circle-img z-2 img-marg" alt="">
+                  <img title="Open Profile" src="imags/avatar-05.png" class="circle-img z-3 img-marg" alt="">
+                  <img title="Open Profile" src="imags/avatar-01.png" class="circle-img z-4 img-marg" alt="">
+                </div>
+              </td>
+              <td><span class="btn c-white bg-green-color">Completed</span></td>
+            </tr>
+            <tr>
+              <td>Health Care</td>
+              <td>20 Apr 2022</td>
+              <td>Health Care</td>
+              <td>700$</td>
+              <td>
+                <div class="img flex">
+                  <img title="Open Profile" src="imags/avatar-05.png" class="circle-img z-1" alt="">
+                  <img title="Open Profile" src="imags/avatar-04.png" class="circle-img z-2 img-marg" alt="">
+                </div>
+              </td>
+              <td><span class="btn c-white bg-red-color">Rejected</span></td>
+            </tr>
+            <tr>
+              <td>Last Project</td>
+              <td>06 Oct 2022</td>
+              <td>Latest</td>
+              <td>500$</td>
+              <td>
+                <div class="img flex">
+                  <img title="Open Profile" src="imags/avatar-02.png" class="circle-img z-1" alt="">
+                  <img title="Open Profile" src="imags/avatar-04.png" class="circle-img z-2 img-marg" alt="">
+                  <img title="Open Profile" src="imags/avatar-05.png" class="circle-img z-3 img-marg" alt="">
+                </div>
+              </td>
+              <td><span class="btn c-white bg-green-color">Completed</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- End Table Section -->
+  </main>
+</body>
+
+</html>

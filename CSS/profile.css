@@ -1,0 +1,157 @@
+/* Infotmation */
+.info {
+  width: 100%;
+}
+
+.info .photo-name {
+  width: 275px;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.info .photo-name img {
+  border-radius: 50%;
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+.info .photo-name span {
+  color: #a7a7a7;
+}
+
+.info .photo-name .stars {
+  justify-content: center;
+  color: gold;
+  margin: 10px 0;
+  gap: 5px;
+}
+
+.information {
+  width: calc(100% - 275px);
+  margin-left: 30px;
+}
+
+.info .group {
+  padding: 0 0 15px 15px;
+  border-left: 1px solid #e1e1e1;
+}
+
+@media(max-width:999px) {
+  .info .group {
+    padding-left: 0;
+  }
+}
+
+.info .group:not(:first-child) {
+  padding-top: 15px;
+}
+
+.info .group:last-child {
+  padding-bottom: 0;
+}
+
+.info .group-2 {
+  width: 90%;
+}
+
+.info .group-2 .part {
+  width: 250px;
+}
+
+.info .group-2 .title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+@media(max-width:1270px) {
+  .info {
+    flex-direction: column;
+  }
+
+  .info .group {
+    border-left: none;
+  }
+
+  .information {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .info .group-2 {
+    width: 100%;
+  }
+}
+
+.info .group-2 .dt {
+  gap: 20px;
+}
+
+/* Skills And Activities */
+.skills-and-activities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+/* My Skills */
+.skills {
+  width: 400px;
+}
+
+@media(max-width:1170px) {
+  .skills {
+    width: 100%;
+  }
+}
+
+.skills .part {
+  padding: 15px 0;
+  gap: 8px;
+}
+
+/* Latest Activities */
+.activities {
+  width: calc(100% - 400px - 25px);
+}
+
+@media(max-width:1170px) {
+  .activities {
+    width: 100%;
+  }
+}
+
+.activities .group {
+  padding: 15px 0;
+}
+
+.activities .photo-and-name {
+  gap: 15px;
+}
+
+.activities .photo-and-name img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.activities .time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media(max-width:768px) {
+  .activities .photo-and-name {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .activities .group {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .activities .time {
+    align-items: center;
+  }
+}

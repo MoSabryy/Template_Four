@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="official dashboard">
+  <title>Dashboard</title>
+  <!-- ========== Main Icon ========== -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1828/1828533.png">
+  <!-- ========== Font Awesome File ========== -->
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <!-- ========== My Framework ========== -->
+  <link rel="stylesheet" href="CSS/framework.css">
+  <!-- ========== Basic Rules ========== -->
+  <link rel="stylesheet" href="CSS/Basics.rtl.css">
+  <!-- ========== Main Style File ========== -->
+  <link rel="stylesheet" href="CSS/main.rtl.css">
+  <!-- ========== Google Fonts ========== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;300;400;600;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <aside>
+    <div class="logo"></div>
+    <div class="links-and-lang">
+      <ul class="links">
+        <li>
+          <a href="index.html" class="active">
+            <i class="fas fa-chart-line icon"></i>
+            <span>لوحة التحكم</span>
+          </a>
+        </li>
+        <li>
+          <a href="settings.html">
+            <i class="fas fa-cog icon"></i>
+            <span>الأعدادات</span>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html">
+            <i class="fas fa-user icon"></i>
+            <span>الملف الشخصى</span>
+          </a>
+        </li>
+        <li>
+          <a href="project.html">
+            <i class="fas fa-project-diagram icon"></i>
+            <span>المشاريع</span>
+          </a>
+        </li>
+        <li>
+          <a href="academy.html">
+            <i class="fas fa-user-graduate icon"></i>
+            <span>الكورسات</span>
+          </a>
+        </li>
+        <li>
+          <a href="friends.html">
+            <i class="fas fa-user-friends icon"></i>
+            <span>الأصدقاء</span>
+          </a>
+        </li>
+        <li>
+          <a href="files.html">
+            <i class="fas fa-folder icon"></i>
+            <span>الملفات</span>
+          </a>
+        </li>
+        <li>
+          <a href="plans.html">
+            <i class="fas fa-pager icon"></i>
+            <span>الخطط</span>
+          </a>
+        </li>
+      </ul>
+      <div class="lang">
+        <a href="index.rtl.html" class="btn c-white bg-main-color">AR</a>
+        <a href="index.html" class="btn c-white bg-main-color">EN</a>
+      </div>
+    </div>
+  </aside>
+  <header>
+    <form action="">
+      <i class="fas fa-search"></i>
+      <input type="search" placeholder="البحث">
+    </form>
+    <div class="profile-and-notification">
+      <div class="notification">
+        <i class="far fa-bell icon">
+          <ul class="news-bar">
+            <div class="title">
+              <h2>الأشعارات</h2>
+              <i class="fas fa-ellipsis-v icon">
+                <ul class="options">
+                  <li>تميز الكل كامقروءه</li>
+                  <li>مسح جميع الأشعارات</li>
+                </ul>
+              </i>
+            </div>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-01.png" alt="">
+              </div>
+              <div class="info">
+                <h4>محمد صبري أبدى إعجابه بالبروفيسور أسامة محمد</h4>
+                <span>12:30 صباحآ</span>
+              </div>
+            </li>
+            <li class="news active">
+              <div class="img">
+                <img src="imags/avatar-02.png" alt="">
+              </div>
+              <div class="info">
+                <h4>شارك أسامة الزيرو منشورك</h4>
+                <span>09:28 صباحآ</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-03.png" alt="">
+              </div>
+              <div class="info">
+                <h4>تفاعل أسامة محمد مع منشورك</h4>
+                <span>04:36 مساءآ</span>
+              </div>
+            </li>
+            <li class="news active">
+              <div class="img">
+                <img src="imags/avatar-04.png" alt="">
+              </div>
+              <div class="info">
+                <h4>قام الزيرو بأضافة فيديو جديد</h4>
+                <span>07:46 صباحآ</span>
+              </div>
+            </li>
+            <li class="news active">
+              <div class="img">
+                <img src="imags/avatar-05.png" alt="">
+              </div>
+              <div class="info">
+                <h4>قام محمد صبرى بحذف تعليقك</h4>
+                <span>02:59 مساءآ</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-01.png" alt="">
+              </div>
+              <div class="info">
+                <h4>تم حذف تعليق كرم محمود لأنه يخالف القوانين</h4>
+                <span>12:30 صباحآ</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-02.png" alt="">
+              </div>
+              <div class="info">
+                <h4>يرجى تحديث منشورك</h4>
+                <span>09:28 صباحآ</span>
+              </div>
+            </li>
+            <li class="news active">
+              <div class="img">
+                <img src="imags/avatar-03.png" alt="">
+              </div>
+              <div class="info">
+                <h4>طلب أبو تريكة الإذن بنشر مقالته</h4>
+                <span>04:36 مساءآ</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-04.png" alt="">
+              </div>
+              <div class="info">
+                <h4>يرجى إلقاء نظرة على تصميمات العملاء</h4>
+                <span>07:46 صباحآ</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-05.png" alt="">
+              </div>
+              <div class="info">
+                <h4>أصبح أداء موقعك أكثر سلاسة من ذي قبل</h4>
+                <span>02:59 مساءآ</span>
+              </div>
+            </li>
+          </ul>
+        </i>
+      </div>
+      <a href="profile.html" class="profile">
+        <img src="imags/avatar-06.png" alt="">
+      </a>
+    </div>
+  </header>
+  <main class="content">
+    <h1 class="main-title-rtl">لوحة التحكم</h1>
+    <div class="statistics main-grid">
+      <!-- Start Profile Section -->
+      <section class="profile box-bg-white">
+        <div class="title">
+          <h1>مرحــبــآ</h1>
+          <p>صبرى</p>
+        </div>
+        <div class="cover">
+          <img src="imags/cover.png" alt="">
+        </div>
+        <div class="profile-pic">
+          <img src="imags/avatar-06.png" alt="">
+        </div>
+        <div class="numbers">
+          <div class="name">
+            <span class="one">Mohamed Sabry</span>
+            <span class="two">مطور</span>
+          </div>
+          <div class="project">
+            <span class="one">548</span>
+            <span class="two">المشاريع</span>
+          </div>
+          <div class="earned">
+            <span class="one">750,000$</span>
+            <span class="two">تم الحصول</span>
+          </div>
+        </div>
+        <div class="buttom">
+          <a href="profile.html" class="btn c-white bg-main-color">الملف الشخصى</a>
+        </div>
+      </section>
+      <!-- End Profile Section -->
+      <!-- Start Draft Section -->
+      <section class="draft box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit">مسودة سريعة</h1>
+          <p class="p-siz">اكتب مسودة لفكرتك</p>
+        </div>
+        <div class="inputs">
+          <input type="text" placeholder="العنوان">
+          <textarea style="resize: none;" placeholder="وصف فكرتك"></textarea>
+          <input type="file" id="file">
+          <label for="file" id="file" class="flex">
+            رفع ملف
+            <i class="fas fa-file-archive icon"></i>
+          </label>
+        </div>
+        <div class="btn-end">
+          <a href="#" class="btn c-white bg-main-color">حفظ</a>
+        </div>
+      </section>
+      <!-- End Draft Section  -->
+      <!-- Start Target Section -->
+      <section class="target box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit">الهدف السنوي</h1>
+          <p class="p-siz">هدف العام بإحراز تقدم</p>
+        </div>
+        <div class="money flex">
+          <div class="icon flex">
+            <img src="imags/dollars.png" alt="">
+          </div>
+          <div class="info">
+            <span class="title span-block">مال</span>
+            <span class="number span-block">20.000$</span>
+            <div class="line">
+              <span style="width: 60%;">
+                <div>60%</div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="projects flex">
+          <div class="icon flex">
+            <img src="imags/coding.png" alt="">
+          </div>
+          <div class="info">
+            <span class="title span-block">المشاريع</span>
+            <span class="number span-block">54</span>
+            <div class="line">
+              <span style="width: 93%;">
+                <div>93%</div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="team flex">
+          <div class="icon flex">
+            <img src="imags/man.png" alt="">
+          </div>
+          <div class="info">
+            <span class="title span-block">فريق</span>
+            <span class="number span-block">22</span>
+            <div class="line">
+              <span style="width: 80%;">
+                <div>80%</div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Target Section -->
+      <!-- Start Tickets Section -->
+      <section class="tickets box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit">إحصائيات التذاكر</h1>
+          <p class="p-siz">كل شيء عن تذاكر الدعم</p>
+        </div>
+        <div class="group">
+          <div class="box one">
+            <i class="far fa-list-alt icon"></i>
+            <span class="span-block number">2500</span>
+            <span class="span-block name">المجموع</span>
+          </div>
+          <div class="box two">
+            <i class="fas fa-spinner icon"></i>
+            <span class="span-block number">500</span>
+            <span class="span-block name">قيد الانتظار</span>
+          </div>
+          <div class="box three">
+            <i class="far fa-check-circle icon"></i>
+            <span class="span-block number">1900</span>
+            <span class="span-block name">مغلق</span>
+          </div>
+          <div class="box four">
+            <i class="far fa-times-circle icon"></i>
+            <span class="span-block number">100</span>
+            <span class="span-block name">تم الحذف</span>
+          </div>
+        </div>
+      </section>
+      <!-- End Tickets Section -->
+      <!-- Start News Section -->
+      <section class="news box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">أحدث الأخبار</h1>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="post flex">
+            <img src="imags/news_2.png" alt="">
+            <div class="info">
+              <h4>تم إنشاء قسم SASS</h4>
+              <p>تصميم موقع SASS جديد</p>
+            </div>
+          </div>
+          <div class="time btn">منذ 3 أيام</div>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="post flex">
+            <img src="imags/news_3.png" alt="">
+            <div class="info">
+              <h4>تم تغيير التصميم</h4>
+              <p>تصميم موقع ماركة تجارة جديد</p>
+            </div>
+          </div>
+          <div class="time btn">منذ 145 أيام</div>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="post flex">
+            <img src="imags/news_1.png" alt="">
+            <div class="info">
+              <h4>زيادة الفريق</h4>
+              <p>انضم 3 مطورين إلى الفريق</p>
+            </div>
+          </div>
+          <div class="time btn">منذ 8 أيام</div>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="post flex">
+            <img src="imags/news_4.png" alt="">
+            <div class="info">
+              <h4>بوابة الدفع المضافة</h4>
+              <p>تم اضأفة بوابة دفع جديدة</p>
+            </div>
+          </div>
+          <div class="time btn">منذ 28 أيام</div>
+        </div>
+      </section>
+      <!-- End News Section -->
+      <!-- Start Tasks Section -->
+      <section class="tasks box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit">أحدث المهام</h1>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="task">
+            <h4>سجل فيديو جديد</h4>
+            <p>قم بتسجيل مشروع Python Create Exe</p>
+          </div>
+          <i class="fas fa-trash-alt"></i>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="task">
+            <h4>اكتب المقال</h4>
+            <p>اكتب مستوى منخفض مقابل لغات عالية المستوى</p>
+          </div>
+          <i class="fas fa-trash-alt"></i>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="task">
+            <h4>الانتهاء من المشروع</h4>
+            <p>انشر مشروع برمجة الأكاديمية</p>
+          </div>
+          <i class="fas fa-trash-alt"></i>
+        </div>
+        <div class="group flex flex-jus-bet low-opacity">
+          <div class="task del">
+            <h4>حضر المقابله</h4>
+            <p>حضور اجتماع تحليل أعمال المشروع</p>
+          </div>
+          <i class="fas fa-trash-alt"></i>
+        </div>
+        <div class="group flex flex-jus-bet">
+          <div class="task">
+            <h4>إنهاء الدرس</h4>
+            <p>انتهاء تدريس Flex Box</p>
+          </div>
+          <i class="fas fa-trash-alt"></i>
+        </div>
+      </section>
+      <!-- End Tasks Section -->
+      <!-- Start Search Items Section -->
+      <section class="search-items box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">أهم عناصر البحث</h1>
+        </div>
+        <div class="keyword flex flex-jus-bet">
+          <span class="span-block">الكلمة الرئيسية</span>
+          <span class="span-block">عدد البحث</span>
+        </div>
+        <ul class="list">
+          <li class="flex flex-jus-bet">
+            <span class="span-block">Programming</span>
+            <span class="span-block btn bg-gray-color">728</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">JavaScript</span>
+            <span class="span-block btn bg-gray-color">280</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">PHP</span>
+            <span class="span-block btn bg-gray-color">263</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">Code</span>
+            <span class="span-block btn bg-gray-color">157</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">Design</span>
+            <span class="span-block btn bg-gray-color">126</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">Logic</span>
+            <span class="span-block btn bg-gray-color">57</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">CSS</span>
+            <span class="span-block btn bg-gray-color">43</span>
+          </li>
+          <li class="flex flex-jus-bet">
+            <span class="span-block">HTML</span>
+            <span class="span-block btn bg-gray-color">27</span>
+          </li>
+        </ul>
+      </section>
+      <!-- End Search Items Section -->
+      <!-- Start Upload Files Section -->
+      <section class="upload-files box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">تحميل الملفات التي استمرت</h1>
+        </div>
+        <ul class="group">
+          <li class="flex flex-jus-bet">
+            <div class="name flex">
+              <img src="/imags/pdf.png" alt="">
+              <div class="info">
+                <h4>My-pdf-file.pdf</h4>
+                <p>Sabry</p>
+              </div>
+            </div>
+            <div class="size">
+              <span class="span-block btn bg-gray-color">2.9MB</span>
+            </div>
+          </li>
+          <li class="flex flex-jus-bet">
+            <div class="name flex">
+              <img src="/imags/dll.png" alt="">
+              <div class="info">
+                <h4>My-dll-file.dll</h4>
+                <p>Ali</p>
+              </div>
+            </div>
+            <div class="size">
+              <span class="span-block btn bg-gray-color">17.2MB</span>
+            </div>
+          </li>
+          <li class="flex flex-jus-bet">
+            <div class="name flex">
+              <img src="/imags/eps.png" alt="">
+              <div class="info">
+                <h4>My-eps-file.eps</h4>
+                <p>Sabry</p>
+              </div>
+            </div>
+            <div class="size">
+              <span class="span-block btn bg-gray-color">8.1MB</span>
+            </div>
+          </li>
+          <li class="flex flex-jus-bet">
+            <div class="name flex">
+              <img src="/imags/zip.png" alt="">
+              <div class="info">
+                <h4>My-zip-file.zip</h4>
+                <p>Admin</p>
+              </div>
+            </div>
+            <div class="size">
+              <span class="span-block btn bg-gray-color">7.2MB</span>
+            </div>
+          </li>
+          <li class="flex flex-jus-bet">
+            <div class="name flex">
+              <img src="/imags/avi.png" alt="">
+              <div class="info">
+                <h4>My-avi-file.avi</h4>
+                <p>Uesr</p>
+              </div>
+            </div>
+            <div class="size">
+              <span class="span-block btn bg-gray-color">5.8MB</span>
+            </div>
+          </li>
+          <li class="flex flex-jus-bet">
+            <div class="name flex">
+              <img src="/imags/psd.png" alt="">
+              <div class="info">
+                <h4>My-psd-file.psd</h4>
+                <p>Admin</p>
+              </div>
+            </div>
+            <div class="size">
+              <span class="span-block btn bg-gray-color">14.3MB</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- End Upload Files Section -->
+      <!-- Start Curent Project Section -->
+      <section class="project-progress box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">تقدم المشروع الحالي</h1>
+        </div>
+        <ul class="list">
+          <li>
+            <i class="fas fa-circle icon-color"></i>
+            <h3>حصلت على المشروع</h3>
+          </li>
+          <li>
+            <i class="fas fa-circle icon-color"></i>
+            <h3>بدأ المشروع</h3>
+          </li>
+          <li>
+            <i class="fas fa-circle icon-color"></i>
+            <h3>المشروع على وشك الانتهاء</h3>
+          </li>
+          <li>
+            <i class="fas fa-circle icon-white loading"></i>
+            <h3>اختبر المشروع</h3>
+          </li>
+          <li>
+            <i class="fas fa-circle icon-white"></i>
+            <h3>أنهِ المشروع واحصل على المال</h3>
+          </li>
+        </ul>
+      </section>
+      <!-- End Curent Project Section -->
+      <!-- Start Reminders Section -->
+      <section class="reminders box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">تذكير</h1>
+        </div>
+        <ul class="list">
+          <li class="flex">
+            <i class="fas fa-circle icon"></i>
+            <div class="info">
+              <h4>تحقق من قائمة المهام الخاصة بي</h4>
+              <p>28/09/2022 - 07:30AM</p>
+            </div>
+          </li>
+          <li class="flex">
+            <i class="fas fa-circle icon"></i>
+            <div class="info">
+              <h4>تحقق من مشروعي</h4>
+              <p>26/10/2022 - 12:00AM</p>
+            </div>
+          </li>
+          <li class="flex">
+            <i class="fas fa-circle icon"></i>
+            <div class="info">
+              <h4>اتصل بـ All My Client</h4>
+              <p>22/07/2022 - 07:00PM</p>
+            </div>
+          </li>
+          <li class="flex">
+            <i class="fas fa-circle icon"></i>
+            <div class="info">
+              <h4>قم بإنهاء ورشة التطوير</h4>
+              <p>20/12/2022 - 09:45PM</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- End Reminders Section -->
+      <!-- Start Lasted Post Section -->
+      <section class="lasted-post box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">آخر مشاركة</h1>
+        </div>
+        <div class="group flex-jus-bet">
+          <div class="profile flex gap-10">
+            <img src="/imags/avatar-06.png" alt="">
+            <div class="info">
+              <h4>Mohamed Sabry</h4>
+              <span class="span-block">منذ حوالي 3 ساعات</span>
+            </div>
+          </div>
+          <p class="post">
+            الشركة نفسها هي شركة ناجحة للغاية. نحن نتهمه بأنه مولود من العقل ، ولكن أي شخص لديه رغبة في المتاعب فإن
+            الرحلة مناسبة
+            لاختياره! كما لو كان من دواعي سرور البعض أن يرفضوا المتاعب والألم أكثر من أي شيء آخر.
+          </p>
+          <div class="likes-and-comments flex flex-jus-bet">
+            <div class="liks">
+              <span><i class="far fa-heart icon"></i></span>
+              <span>3.2K</span>
+            </div>
+            <div class="comments">
+              <span><i class="far fa-comments icon"></i></span>
+              <span>286</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Lasted Post Section -->
+      <!-- Start Social Media Section -->
+      <section class="social-media box-bg-white box-pad">
+        <div class="title">
+          <h1 class="tit tit-mrg-botm">احصائيات وسائل التواصل الاجتماعي</h1>
+        </div>
+        <div class="group">
+          <div class="link twitter flex">
+            <i class="fab fa-twitter-square icon bg-twitter-color"></i>
+            <div class="number flex-jus-bet flex">
+              <span>90 ألف متابع</span>
+              <span class="span-block btn bg-twitter-color">متابعة</span>
+            </div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="link facebook flex">
+            <i class="fab fa-facebook-square icon bg-facebook-color"></i>
+            <div class="number flex-jus-bet flex">
+              <span>2 مليون لايك</span>
+              <span class="span-block btn bg-facebook-color">اعجاب</span>
+            </div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="link youtube flex">
+            <i class="fab fa-youtube-square icon bg-youtube-color"></i>
+            <div class="number flex-jus-bet flex">
+              <span>1 مليون مشترك</span>
+              <span class="span-block btn bg-youtube-color">اشترك</span>
+            </div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="link linkedin flex">
+            <i class="fab fa-linkedin icon bg-linkedin-color"></i>
+            <div class="number flex-jus-bet flex">
+              <span>70 ألف متابع</span>
+              <span class="span-block btn bg-linkedin-color">متابعة</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Social Media Section -->
+    </div>
+    <!-- Start Table Section -->
+    <div class="table box-bg-white box-pad">
+      <div class="title">
+        <h1 class="tit tit-mrg-botm">المشاريع</h1>
+      </div>
+      <div class="content">
+        <table>
+          <thead>
+            <tr>
+              <td>الأسم</td>
+              <td>تاريخ الانتهاء</td>
+              <td>العميل</td>
+              <td>السعر</td>
+              <td>الفريق</td>
+              <td>الحالة</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>وزارة ويكيبيديا ، الموسوعة الحرة</td>
+              <td>10 مايو 2022</td>
+              <td>Ministry</td>
+              <td>3500$</td>
+              <td>
+                <div class="img flex">
+                  <img title="Open Profile" src="imags/avatar-01.png" class="circle-img z-1" alt="">
+                  <img title="Open Profile" src="imags/avatar-02.png" class="circle-img z-2 img-marg-right" alt="">
+                  <img title="Open Profile" src="imags/avatar-03.png" class="circle-img z-3 img-marg-right" alt="">
+                  <img title="Open Profile" src="imags/avatar-04.png" class="circle-img z-4 img-marg-right" alt="">
+                </div>
+              </td>
+              <td><span class="btn c-white bg-orange-color">قيد الانتظار</span></td>
+            </tr>
+            <tr>
+              <td>محل صبري</td>
+              <td>22 يوليو 2022</td>
+              <td>شركة صبري</td>
+              <td>2300$</td>
+              <td>
+                <div class="img flex">
+                  <img title="Open Profile" src="imags/avatar-02.png" class="circle-img z-1" alt="">
+                  <img title="Open Profile" src="imags/avatar-03.png" class="circle-img z-4 img-marg-right" alt="">
+                </div>
+              </td>
+              <td><span class="btn c-white bg-facebook-color">في تَقَدم</span></td>
+            </tr>
+            <tr>
+              <td>تطبيق أوبر</td>
+              <td>09 سبتمبر 2022</td>
+              <td>شركة اوبر</td>
+              <td>8600$</td>
+              <td>
+                <div class="img flex">
+                  <img title="Open Profile" src="imags/avatar-05.png" class="circle-img z-1" alt="">
+                  <img title="Open Profile" src="imags/avatar-02.png" class="circle-img z-2 img-marg-right" alt="">
+                  <img title="Open Profile" src="imags/avatar-04.png" class="circle-img z-4 img-marg-right" alt="">
+                </div>
+              </td>
+              <td><span class="btn c-white bg-green-color">مكتمل</span></td>
+            </tr>
+            <tr>
+              <td>موقع محمد</td>
+              <td>27 مايو 2022</td>
+              <td>شركة محمد</td>
+              <td>1200$</td>
+              <td>
+                <div class="img flex">
+                  <img title="Open Profile" src="imags/avatar-04.png" class="circle-img z-1" alt="">
+                  <img title="Open Profile" src="imags/avatar-03.png" class="circle-img z-2 img-marg-right" alt="">
+                  <img title="Open Profile" src="imags/avatar-05.png" class="circle-img z-3 img-marg-right" alt="">
+                  <img title="Open Profile" src="imags/avatar-01.png" class="circle-img z-4 img-marg-right" alt="">
+                </div>
+              </td>
+              <td><span class="btn c-white bg-green-color">مكتمل</span></td>
+            </tr>
+            <tr>
+              <td>رعاية صحية</td>
+              <td>20 أبريل 2022</td>
+              <td>Health Care</td>
+              <td>700$</td>
+              <td>
+                <div class="img flex">
+                  <img title="Open Profile" src="imags/avatar-05.png" class="circle-img z-1" alt="">
+                  <img title="Open Profile" src="imags/avatar-04.png" class="circle-img z-2 img-marg-right" alt="">
+                </div>
+              </td>
+              <td><span class="btn c-white bg-red-color">مرفوض</span></td>
+            </tr>
+            <tr>
+              <td>آخر مشروع</td>
+              <td>06 اكتوبر 2022</td>
+              <td>Latest</td>
+              <td>500$</td>
+              <td>
+                <div class="img flex">
+                  <img title="Open Profile" src="imags/avatar-02.png" class="circle-img z-1" alt="">
+                  <img title="Open Profile" src="imags/avatar-04.png" class="circle-img z-2 img-marg-right" alt="">
+                  <img title="Open Profile" src="imags/avatar-05.png" class="circle-img z-3 img-marg-right" alt="">
+                </div>
+              </td>
+              <td><span class="btn c-white bg-green-color">مكتمل</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- End Table Section -->
+  </main>
+</body>
+
+</html>

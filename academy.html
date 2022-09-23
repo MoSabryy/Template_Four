@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="official dashboard">
+  <title>Dashboard</title>
+  <!-- ========== Main Icon ========== -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1828/1828533.png">
+  <!-- ========== Font Awesome File ========== -->
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <!-- ========== My Framework ========== -->
+  <link rel="stylesheet" href="CSS/framework.css">
+  <!-- ========== Basic Rules ========== -->
+  <link rel="stylesheet" href="CSS/Basics.css">
+  <!-- ========== Main Style File ========== -->
+  <link rel="stylesheet" href="CSS/academy.css">
+  <!-- ========== Google Fonts ========== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,
+              200;0,400;0,600;0,800;0,900;1,100;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <aside>
+    <div class="logo"></div>
+    <div class="links-and-lang">
+      <ul class="links">
+        <li>
+          <a href="index.html">
+            <i class="fas fa-chart-line icon"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="settings.html">
+            <i class="fas fa-cog icon"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html">
+            <i class="fas fa-user icon"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="project.html">
+            <i class="fas fa-project-diagram icon"></i>
+            <span>Project</span>
+          </a>
+        </li>
+        <li>
+          <a href="academy.html" class="active">
+            <i class="fas fa-user-graduate icon"></i>
+            <span>Courses</span>
+          </a>
+        </li>
+        <li>
+          <a href="friends.html">
+            <i class="fas fa-user-friends icon"></i>
+            <span>Friends</span>
+          </a>
+        </li>
+        <li>
+          <a href="files.html">
+            <i class="fas fa-folder icon"></i>
+            <span>Files</span>
+          </a>
+        </li>
+        <li>
+          <a href="plans.html">
+            <i class="fas fa-pager icon"></i>
+            <span>Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+  <header>
+    <form action="">
+      <i class="fas fa-search"></i>
+      <input type="search" placeholder="Search Keyword">
+    </form>
+    <div class="profile-and-notification">
+      <div class="notification">
+        <i class="far fa-bell icon">
+          <ul class="news-bar">
+            <div class="title">
+              <h2>notifications</h2>
+              <i class="fas fa-ellipsis-v icon">
+                <ul class="options">
+                  <li>Mark it as read</li>
+                  <li>Remove all notice</li>
+                </ul>
+              </i>
+            </div>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-01.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Mohamed Sabry expressed his admiration for Professor Osama Mohamed</h4>
+                <span>12:30 PM</span>
+              </div>
+            </li>
+            <li class="news active">
+              <div class="img">
+                <img src="imags/avatar-02.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Osama Elzero shared your post</h4>
+                <span>09:28 PM</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-03.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Osama Mohamed reaction to your post</h4>
+                <span>04:36 AM</span>
+              </div>
+            </li>
+            <li class="news active">
+              <div class="img">
+                <img src="imags/avatar-04.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Elzero Add New Vadio</h4>
+                <span>07:46 PM</span>
+              </div>
+            </li>
+            <li class="news active">
+              <div class="img">
+                <img src="imags/avatar-05.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Mohamed Sabry deleted your comment</h4>
+                <span>02:59 AM</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-01.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Karam Mahmoud comment has been removed because it violates the laws</h4>
+                <span>12:30 PM</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-02.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Please update your post</h4>
+                <span>09:28 PM</span>
+              </div>
+            </li>
+            <li class="news active">
+              <div class="img">
+                <img src="imags/avatar-03.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Abu Trika requested permission to publish his article</h4>
+                <span>04:36 AM</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-04.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Please take a look at customer designs</h4>
+                <span>07:46 PM</span>
+              </div>
+            </li>
+            <li class="news">
+              <div class="img">
+                <img src="imags/avatar-05.png" alt="">
+              </div>
+              <div class="info">
+                <h4>Your site's performance is smoother than before</h4>
+                <span>02:59 AM</span>
+              </div>
+            </li>
+          </ul>
+        </i>
+      </div>
+      <a href="profile.html" class="profile">
+        <img src="imags/avatar-06.png" alt="">
+      </a>
+    </div>
+  </header>
+  <main class="content">
+    <h1 class="main-title">Courses</h1>
+    <div class="courses grid-two">
+      <div class="box one box-bg-white">
+        <img class="cover" src="imags/Lang/JS.jpg" alt="">
+        <div class="info">
+          <h3>Javascript Bootcamp</h3>
+          <p>This course with applications and exercises will make you master the language and professionalism.</p>
+        </div>
+        <div class="teacher">
+          <img src="imags/avatar-01.png" alt="">
+          <div class="teacher-info">
+            <h4>Osama Elzero</h4>
+            <p>Full Stack Developer</p>
+          </div>
+        </div>
+        <div class="price flex-jus-bet flex">
+          <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv" class="Information btn bg-main-color c-white" target="_blank">Watch Now</a>
+          <span class="txt-gray">
+            <i class="fas fa-user-graduate"></i>
+            <span>174,153</span>
+          </span>
+          <span class="btn bg-gray-color">Free</span>
+        </div>
+      </div>
+      <div class="box two box-bg-white">
+        <img class="cover" src="imags/Lang/CPlus.jpg" alt="">
+        <div class="info">
+          <h3>C++</h3>
+          <p>This course with applications and exercises will make you master the language and professionalism.</p>
+        </div>
+        <div class="teacher">
+          <img src="imags/avatar-02.png" alt="">
+          <div class="teacher-info">
+            <h4>Karem Sayed</h4>
+            <p>Desktop Developer</p>
+          </div>
+        </div>
+        <div class="price flex-jus-bet flex">
+          <span class="Information btn bg-main-color c-white">Courses Info</span>
+          <span class="txt-gray">
+            <i class="fas fa-user-graduate"></i>
+            <span>582</span>
+          </span>
+          <span class="btn bg-gray-color">400$</span>
+        </div>
+      </div>
+      <div class="box three box-bg-white">
+        <img class="cover" src="imags/Lang/Go.jpg" alt="">
+        <div class="info">
+          <h3>Go</h3>
+          <p>This course with applications and exercises will make you master the language and professionalism.</p>
+        </div>
+        <div class="teacher">
+          <img src="imags/avatar-03.png" alt="">
+          <div class="teacher-info">
+            <h4>Ali Mohamed</h4>
+            <p>Android Developer</p>
+          </div>
+        </div>
+        <div class="price flex-jus-bet flex">
+          <span class="Information btn bg-main-color c-white">Courses Info</span>
+          <span class="txt-gray">
+            <i class="fas fa-user-graduate"></i>
+            <span>954</span>
+          </span>
+          <span class="btn bg-gray-color">150$</span>
+        </div>
+      </div>
+      <div class="box four box-bg-white">
+        <img class="cover" src="imags/Lang/PHP.jpg" alt="">
+        <div class="info">
+          <h3>PHP</h3>
+          <p>This course with applications and exercises will make you master the language and professionalism.</p>
+        </div>
+        <div class="teacher">
+          <img src="imags/avatar-06.png" alt="">
+          <div class="teacher-info">
+            <h4>Mohamed Sabry</h4>
+            <p>Full Stack Developer</p>
+          </div>
+        </div>
+        <div class="price flex-jus-bet flex">
+          <span class="Information btn bg-main-color c-white">Courses Info</span>
+          <span class="txt-gray">
+            <i class="fas fa-user-graduate"></i>
+            <span>2148</span>
+          </span>
+          <span class="btn bg-gray-color">20$</span>
+        </div>
+      </div>
+      <div class="box five box-bg-white">
+        <img class="cover" src="imags/Lang/Laravel.jpg" alt="">
+        <div class="info">
+          <h3>Laravel</h3>
+          <p>This course with applications and exercises will make you master the language and professionalism.</p>
+        </div>
+        <div class="teacher">
+          <img src="imags/avatar-04.png" alt="">
+          <div class="teacher-info">
+            <h4>Amar Yasser</h4>
+            <p>Full Stack Developer</p>
+          </div>
+        </div>
+        <div class="price flex-jus-bet flex">
+          <span class="Information btn bg-main-color c-white">Courses Info</span>
+          <span class="txt-gray">
+            <i class="fas fa-user-graduate"></i>
+            <span>153</span>
+          </span>
+          <span class="btn bg-gray-color">1200$</span>
+        </div>
+      </div>
+      <div class="box six box-bg-white">
+        <img class="cover" src="imags/Lang/Pyhon.jpg" alt="">
+        <div class="info">
+          <h3>Pyhon</h3>
+          <p>This course with applications and exercises will make you master the language and professionalism.</p>
+        </div>
+        <div class="teacher">
+          <img src="imags/avatar-05.png" alt="">
+          <div class="teacher-info">
+            <h4>Mahmoud Galal</h4>
+            <p>AI Developer</p>
+          </div>
+        </div>
+        <div class="price flex-jus-bet flex">
+          <span class="Information btn bg-main-color c-white">Courses Info</span>
+          <span class="txt-gray">
+            <i class="fas fa-user-graduate"></i>
+            <span>4375</span>
+          </span>
+          <span class="btn bg-gray-color">50$</span>
+        </div>
+      </div>
+      <div class="box seven box-bg-white">
+        <img class="cover" src="imags/Lang/Bootstrap.jpg" alt="">
+        <div class="info">
+          <h3>Bootstrap</h3>
+          <p>This course with applications and exercises will make you master the language and professionalism.</p>
+        </div>
+        <div class="teacher">
+          <img src="imags/avatar-04.png" alt="">
+          <div class="teacher-info">
+            <h4>Ali Mohamed</h4>
+            <p>Front-End</p>
+          </div>
+        </div>
+        <div class="price flex-jus-bet flex">
+          <span class="Information btn bg-main-color c-white">Courses Info</span>
+          <span class="txt-gray">
+            <i class="fas fa-user-graduate"></i>
+            <span>1583</span>
+          </span>
+          <span class="btn bg-gray-color">30$</span>
+        </div>
+      </div>
+      <div class="box eight box-bg-white">
+        <img class="cover" src="imags/Lang/Java.jpg" alt="">
+        <div class="info">
+          <h3>Java</h3>
+          <p>This course with applications and exercises will make you master the language and professionalism.</p>
+        </div>
+        <div class="teacher">
+          <img src="imags/avatar-03.png" alt="">
+          <div class="teacher-info">
+            <h4>Ibrahim Mohamed</h4>
+            <p>Android Developer</p>
+          </div>
+        </div>
+        <div class="price flex-jus-bet flex">
+          <span class="Information btn bg-main-color c-white">Courses Info</span>
+          <span class="txt-gray">
+            <i class="fas fa-user-graduate"></i>
+            <span>4725</span>
+          </span>
+          <span class="btn bg-gray-color">350$</span>
+        </div>
+      </div>
+      <div class="box nine box-bg-white">
+        <img class="cover" src="imags/Lang/SQL.jpg" alt="">
+        <div class="info">
+          <h3>SQL</h3>
+          <p>This course with applications and exercises will make you master the language and professionalism.</p>
+        </div>
+        <div class="teacher">
+          <img src="imags/avatar-02.png" alt="">
+          <div class="teacher-info">
+            <h4>Karam Ashraf</h4>
+            <p>Web Developer</p>
+          </div>
+        </div>
+        <div class="price flex-jus-bet flex">
+          <span class="Information btn bg-main-color c-white">Courses Info</span>
+          <span class="txt-gray">
+            <i class="fas fa-user-graduate"></i>
+            <span>3548</span>
+          </span>
+          <span class="btn bg-gray-color">550$</span>
+        </div>
+      </div>
+      <div class="box ten box-bg-white">
+        <img class="cover" src="imags/Lang/Flutter.jpg" alt="">
+        <div class="info">
+          <h3>Flutter</h3>
+          <p>This course with applications and exercises will make you master the language and professionalism.</p>
+        </div>
+        <div class="teacher">
+          <img src="imags/avatar-05.png" alt="">
+          <div class="teacher-info">
+            <h4>Mohsan Salah</h4>
+            <p>Mobile Developer</p>
+          </div>
+        </div>
+        <div class="price flex-jus-bet flex">
+          <span class="Information btn bg-main-color c-white">Courses Info</span>
+          <span class="txt-gray">
+            <i class="fas fa-user-graduate"></i>
+            <span>1535</span>
+          </span>
+          <span class="btn bg-gray-color">850$</span>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
